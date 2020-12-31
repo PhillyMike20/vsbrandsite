@@ -2,7 +2,8 @@
   position: relative;
 
   img {
-    opacity: 0.24;
+    opacity: 0.18;
+    filter: brightness(1.5);
   }
 
   &__text-content {
@@ -17,7 +18,7 @@
   &__title {
     font-weight: 500;
     color: #333;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     margin: 0;
   }
 
@@ -30,7 +31,7 @@
 
   &__description {
     color: $mainBlue;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     font-weight: 700;
     max-width: 50rem;
     margin-left: auto;

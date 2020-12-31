@@ -13,6 +13,11 @@ module.exports = {
     filename: "bundled.js",
     path: path.resolve(__dirname, "app"), // where bundled.js goes
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'app'),
+    hot: true,
+    port: 3000
+  },
   mode: "development",
   watch: true, // tell webpack to rebundle on save
   module: {

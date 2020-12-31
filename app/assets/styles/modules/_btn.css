@@ -8,4 +8,13 @@
   &--orange {
     background-color: $mainOrange;
   }
+
+  &--blue {
+    background-color: $mainBlue;
+  }
+
+  &--large {
+    font-size: 1.25rem;
+    padding: 1.1rem 1.9rem;
+  }
 }
