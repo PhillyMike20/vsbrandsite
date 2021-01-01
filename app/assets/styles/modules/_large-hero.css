@@ -2,7 +2,7 @@
   position: relative;
 
   img {
-    opacity: 0.15;
+    opacity: 0.11;
     filter: brightness(1.5);
   }
 
@@ -57,22 +57,25 @@
 
   &__description {
     color: $mainBlue;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
-    max-width: 55rem;
+    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
 
     @mixin atSmall {
-      font-size: 1.2rem;
+      font-size: 1.35rem;
+      max-width: 55rem;
     }
 
     @mixin atMedium {
       font-size: 1.6rem;
+      max-width: 55rem;
     }
 
     @mixin atLarge {
       font-size: 1.8rem;
+      max-width: 55rem;
     }
   }
 }
