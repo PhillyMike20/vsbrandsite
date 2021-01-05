@@ -1,0 +1,51 @@
+.headline {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #333;
+  font-family: "Sacramento", cursive;
+
+  @mixin atSmall {
+    font-size: 3.3rem;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--small {
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    @mixin atSmall {
+      font-size: 1.4rem;
+    }
+  }
+
+  &--orange {
+    color: $mainBlue;
+  }
+
+  &--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--light {
+    font-weight: 100;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  &--b-margin-small {
+    margin-bottom: 0.5em;
+    @mixin atMedium {
+      margin-top: 0;
+    }
+  }
+
+  &--b-margin-large {
+    margin-bottom: 1.6em;
+  }
+}

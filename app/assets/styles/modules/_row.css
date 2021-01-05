@@ -1,0 +1,23 @@
+.row {
+  @mixin clearfix;
+
+  max-width: 976px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &--gutters > div {
+    padding-right: 15px;
+  }
+
+  &__4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+
+  &__8 {
+    float: left;
+    width: 75%;
+  }
+}
