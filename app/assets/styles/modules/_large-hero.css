@@ -23,16 +23,12 @@
   &__title {
     font-weight: 500;
     color: #333;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
     font-family: "Sacramento", cursive;
 
     @mixin atSmall {
-      font-size: 3.5rem;
-    }
-
-    @mixin atMedium {
-      font-size: 4.5rem;
+      font-size: 3.75rem;
     }
   }
 
@@ -40,18 +36,18 @@
     font-size: 1.2rem;
     color: $mainBlue;
     font-weight: 500;
-    max-width: 40rem;
+    max-width: 19.5rem;
     margin-left: auto;
     margin-right: auto;
 
     @mixin atSmall {
       font-size: 1.4rem;
-      max-width: 55rem;
+      max-width: 30rem;
     }
 
     @mixin atMedium {
       font-size: 1.8rem;
-      max-width: 55rem;
+      max-width: 45rem;
     }
   }
 }

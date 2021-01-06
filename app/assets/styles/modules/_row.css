@@ -1,13 +1,20 @@
 .row {
   @mixin clearfix;
 
-  max-width: 976px;
+  max-width: 1000px;
   margin-top: 2.5rem;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 18px;
+  padding-left: 18px;
+  @mixin atMedium {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   &--gutters > div {
     padding-right: 15px;
+    padding-left: 15px;
   }
 
   &__medium-4 {
@@ -23,13 +30,13 @@
   @mixin atMedium {
     &__medium-4 {
       float: left;
-      width: 30%;
+      width: 25%;
       text-align: center;
     }
 
     &__medium-8 {
       float: left;
-      width: 70%;
+      width: 75%;
     }
   }
 }

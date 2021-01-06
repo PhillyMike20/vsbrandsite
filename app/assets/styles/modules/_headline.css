@@ -5,7 +5,7 @@
   font-family: "Sacramento", cursive;
 
   @mixin atSmall {
-    font-size: 3.3rem;
+    font-size: 3.75rem;
   }
 
   &--centered {
@@ -25,9 +25,12 @@
     @mixin atSmall {
       font-size: 1.4rem;
     }
+    @mixin atMedium {
+      font-size: 1.8rem;
+    }
   }
 
-  &--orange {
+  &--blue {
     color: $mainBlue;
   }
 
@@ -46,7 +49,7 @@
   }
 
   &--b-margin-small {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
     @mixin atMedium {
       margin-top: 0;
     }
@@ -58,6 +61,15 @@
   }
 
   &--b-margin-large {
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
+    max-width: 15rem;
+
+    @mixin atSmall {
+      max-width: 35rem;
+    }
+
+    @mixin atMedium {
+      max-width: 50rem;
+    }
   }
 }
