@@ -1,6 +1,6 @@
 .headline {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #333;
   font-family: "Sacramento", cursive;
 
@@ -10,6 +10,13 @@
 
   &--centered {
     text-align: center;
+  }
+
+  &--centered1 {
+    text-align: center;
+    @mixin atMedium {
+      text-align: left;
+    }
   }
 
   &--small {
@@ -43,6 +50,11 @@
     @mixin atMedium {
       margin-top: 0;
     }
+  }
+
+  &--b-margin-smaller {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
 
   &--b-margin-large {

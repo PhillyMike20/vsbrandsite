@@ -10,14 +10,26 @@
     padding-right: 15px;
   }
 
-  &__4 {
-    float: left;
-    width: 25%;
+  &__medium-4 {
     text-align: center;
   }
 
-  &__8 {
-    float: left;
-    width: 75%;
+  &__medium-8 {
+    p {
+      margin-top: 0.5em;
+    }
+  }
+
+  @mixin atMedium {
+    &__medium-4 {
+      float: left;
+      width: 30%;
+      text-align: center;
+    }
+
+    &__medium-8 {
+      float: left;
+      width: 70%;
+    }
   }
 }
