@@ -1,6 +1,6 @@
 .headline {
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #333;
   font-family: "Sacramento", cursive;
 
@@ -56,7 +56,7 @@
   }
 
   &--b-margin-smaller {
-    margin-top: 0.25em;
+    margin-top: 0.5em;
     margin-bottom: 0.25em;
   }
 
