@@ -21,6 +21,11 @@
     text-align: center;
   }
 
+  &__medium-6 {
+    float: left;
+    width: 50%;
+  }
+
   &__medium-8 {
     p {
       margin-top: 0.5em;
