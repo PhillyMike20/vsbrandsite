@@ -6,7 +6,7 @@
   }
 
   &--blue {
-    background-color: $mainBlue;
-    color: #fff;
+    /* background-color: $mainBlue; */
+    color: $mainBlue;
   }
 }

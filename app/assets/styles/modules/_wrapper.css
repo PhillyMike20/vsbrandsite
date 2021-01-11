@@ -26,6 +26,6 @@
   }
 
   & i.fas {
-    color: white;
+    color: $mainBlue;
   }
 }
