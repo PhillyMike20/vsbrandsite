@@ -87,6 +87,7 @@
       opacity: 0.25;
       filter: brightness(1.3);
       visibility: visible;
+      margin-top: -200px;
     }
   }
 
@@ -106,7 +107,7 @@
 
     @mixin atSmallMedium {
       position: absolute;
-      top: 50%;
+      top: 65%;
       /* margin-top: -4rem; */
       transform: translateY(-50%);
       left: 0;
