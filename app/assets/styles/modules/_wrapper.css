@@ -1,11 +1,30 @@
 .wrapper {
-  overflow: hidden; /*
+  /*
   max-width: 1236px; */
   margin-left: auto;
   margin-right: auto;
 
   &--medium {
     text-align: center;
+  }
+
+  &--2 {
+    margin-top: 1rem;
+
+    @mixin atSmall {
+      margin-top: 12rem;
+    }
+
+    @mixin atSmallMedium {
+      margin-top: -4rem;
+    }
+
+    @mixin atMedium {
+      margin-top: -8rem;
+    }
+    @mixin atLarge {
+      margin-top: -14rem;
+    }
   }
 
   .wrapper {

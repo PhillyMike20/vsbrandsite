@@ -1,16 +1,22 @@
 .row {
   @mixin clearfix;
-
+  margin-bottom: -4rem;
   max-width: 1000px;
   margin-top: 2.5rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 18px;
   padding-left: 18px;
+  /*
+  @mixin atSmall {
+    margin-bottom: -6rem;
+  }
+
   @mixin atMedium {
     padding-left: 0;
     padding-right: 0;
-  }
+    margin-bottom: -8rem;
+  } */
 
   &--gutters > div {
     padding-right: 15px;
@@ -23,7 +29,7 @@
 
   &__medium-6 {
     float: left;
-    width: 50%;
+    text-align: left;
   }
 
   &__medium-8 {
