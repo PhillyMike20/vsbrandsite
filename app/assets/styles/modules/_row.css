@@ -5,8 +5,7 @@
   margin-top: 2.5rem;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 18px;
-  padding-left: 18px;
+
   /*
   @mixin atSmall {
     margin-bottom: -6rem;
@@ -18,6 +17,18 @@
     margin-bottom: -8rem;
   } */
 
+  /*&--gutters {
+    margin-right: -65px;
+  } 
+*/
+  &--gutters-large {
+    margin-right: -90px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 70px;
+  }
+
   &--gutters > div {
     padding-right: 15px;
     padding-left: 15px;
@@ -28,10 +39,8 @@
   }
 
   &__medium-6 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 85%;
+    float: left;
+    width: 47%;
   }
 
   &__medium-8 {
