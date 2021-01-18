@@ -9,4 +9,9 @@
     margin-left: 50px;
     margin-right: 50px; */
   }
+
+  &--recommendations {
+    background: url("/assets/images/hero--large3.jpg") no-repeat right
+      bottom/cover;
+  }
 }

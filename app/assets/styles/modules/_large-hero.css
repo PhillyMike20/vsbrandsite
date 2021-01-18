@@ -4,7 +4,7 @@
 
   &__image {
     opacity: 0.25;
-    filter: brightness(1.3);
+    filter: brightness(1.2);
     display: block;
     /*@mixin atSmall {
       padding: 0 0 0 0;

@@ -43,6 +43,11 @@
       width: 23%;
     }
 
+    &__medium-4b {
+      float: left;
+      width: 33.33%;
+    }
+
     &__medium-8 {
       float: left;
       width: 77%;
