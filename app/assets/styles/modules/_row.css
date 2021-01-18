@@ -1,15 +1,88 @@
 .row {
   @mixin clearfix;
 
+  &--gutters {
+    margin-right: -65px;
+  }
+
+  &--gutters-large {
+    margin-right: -100px;
+  }
+
+  &--gutters > div {
+    padding-right: 65px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px;
+  }
+
+  &__medium-4 {
+    text-align: center;
+  }
+
+  &__medium-8 {
+    margin-bottom: -1.4em;
+    @mixin atSmall {
+      margin-bottom: 0.25em;
+    }
+  }
+  /*
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  } */
+
+  @mixin atML {
+    /*
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    } */
+
+    &__medium-4 {
+      float: left;
+      width: 23%;
+    }
+
+    &__medium-8 {
+      float: left;
+      width: 77%;
+    }
+
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  /*
+  @mixin clearfix;
+  margin-bottom: -4rem;
   max-width: 1000px;
   margin-top: 2.5rem;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 18px;
-  padding-left: 18px;
+
+  
+  @mixin atSmall {
+    margin-bottom: -6rem;
+  }
+
   @mixin atMedium {
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: -8rem;
+  } */
+
+  /*&--gutters {
+    margin-right: -65px;
+  } 
+
+  &--gutters-large {
+    margin-right: -90px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 70px;
   }
 
   &--gutters > div {
@@ -19,6 +92,11 @@
 
   &__medium-4 {
     text-align: center;
+  }
+
+  &__medium-6 {
+    float: left;
+    width: 47%;
   }
 
   &__medium-8 {
@@ -39,4 +117,5 @@
       width: 75%;
     }
   }
+  */
 }

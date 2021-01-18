@@ -2,7 +2,7 @@
   background-color: $mainBlue;
   color: #fff;
   text-decoration: none;
-  padding: 0.75rem 1.2rem;
+  padding: 0.55rem 1.2rem;
   display: inline-block;
 
   &--orange {

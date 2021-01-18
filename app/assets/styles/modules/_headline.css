@@ -14,7 +14,7 @@
 
   &--centered1 {
     text-align: center;
-    @mixin atMedium {
+    @mixin atML {
       text-align: left;
     }
   }
@@ -50,14 +50,17 @@
 
   &--b-margin-small {
     margin-bottom: 0.4em;
-    @mixin atMedium {
-      margin-top: 0;
-    }
+    margin-top: 0.5em;
   }
 
   &--b-margin-smaller {
-    margin-top: 0.5em;
-    margin-bottom: 0.25em;
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
+
+    @mixin atML {
+      margin-top: 0.3em;
+      margin-bottom: 0.3em;
+    }
   }
 
   &--b-margin-large {

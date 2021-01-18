@@ -1,0 +1,86 @@
+.feature-item {
+  position: relative;
+  padding-bottom: 0.25rem;
+
+  @mixin atSmall {
+    padding-left: 94px;
+  }
+
+  @mixin atML {
+    padding-bottom: 1rem;
+  }
+  /*
+  &__icon {
+    @mixin atSmall {
+      position: absolute;
+      left: 0;
+    }
+  } */
+
+  @mixin atML {
+    padding-left: 122px;
+    margin-bottom: 0.5rem;
+    &__smallpad {
+      padding-left: 98px;
+    }
+  } /*
+  
+  @mixin atSmall {
+    margin-bottom: 2rem;
+    padding-left: 110px;
+  } 
+  @mixin atMedium {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+  }
+  @mixin atLarge {
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+  } 
+*/
+  &__icon {
+    font-size: 3em;
+    display: block;
+    text-align: center;
+
+    @mixin atSmall {
+      font-size: 4em;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    color: $mainBlue;
+    font-weight: 500;
+    margin-top: 0.7em;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    /*
+    max-width: 19rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.8rem;
+  */
+    @mixin atSmall {
+      font-size: 1.8rem;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+  /*
+    font-size: 1.2rem;
+    color: $mainBlue;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.8rem;
+
+    @mixin atSmall {
+      font-size: 1.4rem;
+    }
+
+    @mixin atMedium {
+      font-size: 1.8rem;
+    } */
+}
