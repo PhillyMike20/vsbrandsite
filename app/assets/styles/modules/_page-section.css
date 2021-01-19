@@ -11,7 +11,7 @@
   }
 
   &--recommendations {
-    background: url("/assets/images/hero--large3.jpg") no-repeat right
+    background: url("assets/images/hero--large3.jpg") no-repeat right
       bottom/cover;
   }
 }

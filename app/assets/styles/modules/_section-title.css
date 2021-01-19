@@ -5,7 +5,15 @@
   text-align: center;
   color: #333;
   margin-bottom: 0.3em;
-  margin-top: 0.1em;
+  margin-top: 0.3em;
+  @mixin atSmall {
+    margin-top: 0.025em;
+  }
+
+  &--recommendations {
+    margin-top: 0.65em;
+    margin-bottom: 0.025em;
+  }
 
   @mixin atSmall {
     font-size: 3.75rem;

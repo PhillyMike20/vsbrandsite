@@ -1,6 +1,14 @@
 .row {
   @mixin clearfix;
 
+  &--t-padding {
+    padding-top: 95px;
+  }
+
+  &--b-padding {
+    padding-bottom: 40px;
+  }
+
   &--gutters {
     margin-right: -65px;
   }
@@ -9,12 +17,20 @@
     margin-right: -100px;
   }
 
+  &--gutters-small {
+    margin-right: -45px;
+  }
+
   &--gutters > div {
     padding-right: 65px;
   }
 
   &--gutters-large > div {
     padding-right: 100px;
+  }
+
+  &--gutters-small > div {
+    padding-right: 45px;
   }
 
   &__medium-4 {
@@ -59,68 +75,14 @@
     }
   }
 
-  /*
-  @mixin clearfix;
-  margin-bottom: -4rem;
-  max-width: 1000px;
-  margin-top: 2.5rem;
-  margin-right: auto;
-  margin-left: auto;
-
-  
-  @mixin atSmall {
-    margin-bottom: -6rem;
-  }
-
-  @mixin atMedium {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: -8rem;
-  } */
-
-  /*&--gutters {
-    margin-right: -65px;
-  } 
-
-  &--gutters-large {
-    margin-right: -90px;
-  }
-
-  &--gutters-large > div {
-    padding-right: 70px;
-  }
-
-  &--gutters > div {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  &__medium-4 {
-    text-align: center;
-  }
-
-  &__medium-6 {
-    float: left;
-    width: 47%;
-  }
-
-  &__medium-8 {
-    p {
-      margin-top: 0.5em;
+  /* Begin Equal Height Rules */
+  &--equal-height-at-medium {
+    @mixin atMedium {
+      display: flex;
+    }
+    & > div {
+      float: none;
+      display: flex;
     }
   }
-
-  @mixin atMedium {
-    &__medium-4 {
-      float: left;
-      width: 25%;
-      text-align: center;
-    }
-
-    &__medium-8 {
-      float: left;
-      width: 75%;
-    }
-  }
-  */
 }

@@ -13,6 +13,15 @@
     }
   }
 
+  &--rec {
+    p {
+      @mixin atML {
+        margin: 0 0 1.5rem 0;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
   p a {
     font-weight: 700;
   }

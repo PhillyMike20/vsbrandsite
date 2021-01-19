@@ -3,15 +3,18 @@
   filter: brightness(1.1);
   padding: 0 1.8125rem 1px 1.8125rem;
 
+  img {
+    border-radius: 50%;
+    border: 6px solid $mainBlue;
+    background-color: $mainBlue;
+  }
   &__photo {
-    border-radius: 80px;
     overflow: hidden;
-    width: 160px;
-    height: 160px;
-    margin: 0 auto -80px auto;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto -65px auto;
     position: relative;
     top: -80px;
-    border: 8px solid $mainBlue;
   }
 
   &__title {
@@ -23,10 +26,10 @@
   }
 
   &__subtitle {
-    color: #333;
+    color: $mainBlue;
     text-align: center;
     font-weight: 500;
     font-size: 1.3rem;
-    margin: 0.25rem 0 1rem 0;
+    margin: 0.5rem 0 1rem 0;
   }
 }
