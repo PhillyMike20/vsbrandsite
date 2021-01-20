@@ -3,14 +3,18 @@
   padding-bottom: 0.25rem;
 
   @mixin atSmall {
-    padding-left: 94px;
+    padding-left: 80px;
   }
 
   @mixin atML {
+    padding-left: 100px;
+  }
+
+  @mixin atLarge {
     padding-bottom: 1rem;
   }
 
-  @mixin atML {
+  @mixin atLarge {
     padding-left: 122px;
     margin-bottom: 0.5rem;
     &__smallpad {
@@ -23,9 +27,12 @@
     text-align: center;
 
     @mixin atSmall {
-      font-size: 4em;
       position: absolute;
       left: 0;
+    }
+
+    @mixin atLarge {
+      font-size: 4em;
     }
   }
 

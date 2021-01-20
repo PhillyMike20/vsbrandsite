@@ -43,17 +43,8 @@
       margin-bottom: 0.25em;
     }
   }
-  /*
-  &__b-margin-until-medium {
-    margin-bottom: 1rem;
-  } */
 
   @mixin atML {
-    /*
-    &__b-margin-until-medium {
-      margin-bottom: 0;
-    } */
-
     &__medium-4 {
       float: left;
       width: 23%;
@@ -75,9 +66,41 @@
     }
   }
 
+  @mixin atLarge {
+    &__large-4 {
+      float: left;
+      width: 23%;
+    }
+
+    &__large-4b {
+      float: left;
+      width: 33.33%;
+    }
+
+    &__large-8 {
+      float: left;
+      width: 77%;
+    }
+
+    &__large-6 {
+      float: left;
+      width: 50%;
+    }
+  }
+
   /* Begin Equal Height Rules */
   &--equal-height-at-medium {
     @mixin atMedium {
+      display: flex;
+    }
+    & > div {
+      float: none;
+      display: flex;
+    }
+  }
+
+  &--equal-height-at-large {
+    @mixin atLarge {
       display: flex;
     }
     & > div {

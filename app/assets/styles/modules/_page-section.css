@@ -1,17 +1,31 @@
 .page-section {
   padding: 0.25rem 0;
 
-  &--blue {
-    /* background-color: $mainBlue; */
-    color: $mainBlue;
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
 
-    /*
-    margin-left: 50px;
-    margin-right: 50px; */
+    @mixin atMedium {
+      padding-bottom: 0.25rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 0.25rem;
+    }
+  }
+
+  &--blue {
+    color: $mainBlue;
   }
 
   &--recommendations {
-    background: url("assets/images/hero--large3.jpg") no-repeat right
-      bottom/cover;
+    background-color: #e8f7fe;
+    @mixin atLarge {
+      background: url("assets/images/hero--large3.jpg") no-repeat right
+        bottom/cover;
+    }
   }
 }
