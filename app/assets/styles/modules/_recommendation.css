@@ -21,6 +21,7 @@
     border: 6px solid $mainBlue;
     background-color: $mainBlue;
   }
+
   &__photo {
     overflow: hidden;
     width: 172px;

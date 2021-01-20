@@ -5,8 +5,9 @@
   padding: 0.55rem 1.2rem;
   display: inline-block;
 
-  &--orange {
-    background-color: $mainOrange;
+  &--white {
+    background-color: white;
+    color: $mainBlue;
   }
 
   &--blue {
