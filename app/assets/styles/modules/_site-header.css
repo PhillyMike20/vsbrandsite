@@ -1,9 +1,9 @@
 .site-header {
-  padding: 10px 0;
+  padding: 5px 0;
   position: absolute;
   width: 100%;
   z-index: 2;
-  background-color: rgba($mainBlue, 0.2);
+  /* background-color: rgba($mainBlue, 0.3); */
 
   &__btn-container {
     float: right;
@@ -14,7 +14,7 @@
   &__logo {
     position: absolute;
     top: 0;
-    background-color: $mainBlue;
-    padding: 25px 36px;
+    background-color: #2d8cb9; /*  #287da4; */
+    padding: 12px 21px;
   }
 }

@@ -1,17 +1,15 @@
 .large-hero {
-  border-bottom: 12px solid $mainBlue;
+  border-bottom: 9px solid $mainBlue;
   position: relative;
 
   &__image {
     opacity: 0.25;
     filter: brightness(1.2);
     display: block;
-    /*@mixin atSmall {
-      padding: 0 0 0 0;
-    } */
   }
 
   &__text-content {
+    padding-top: 55px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -28,7 +26,7 @@
     font-family: "Sacramento", cursive;
 
     @mixin atSmall {
-      font-size: 3.75rem;
+      font-size: 3.68rem;
       margin: 0.5em;
     }
   }

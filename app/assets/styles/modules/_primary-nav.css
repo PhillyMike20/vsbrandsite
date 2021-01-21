@@ -12,14 +12,14 @@
   li {
     list-style: none;
     float: left;
-    padding-right: 20px;
+    padding-right: 8px;
   }
 
   a {
     color: $mainBlue;
     text-decoration: none;
     display: block;
-    padding: 12px 0;
-    font-size: 1.1rem;
+    padding: 25px 0;
+    font-size: 1.15rem;
   }
 }
