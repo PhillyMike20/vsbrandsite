@@ -1,10 +1,10 @@
 .large-hero {
-  border-bottom: 9px solid $mainBlue;
+  border-bottom: 2px solid $mainBlue;
   position: relative;
 
   &__image {
-    opacity: 0.25;
-    filter: brightness(1.2);
+    opacity: 0.28;
+    filter: brightness(1.24);
     display: block;
   }
 
