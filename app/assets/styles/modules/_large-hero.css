@@ -22,12 +22,19 @@
     font-weight: 500;
     color: #333;
     font-size: 2.4rem;
-    margin-top: 1.5em;
     font-family: "Sacramento", cursive;
 
     @mixin atSmall {
       font-size: 3.68rem;
       margin: 0.5em;
+    }
+
+    @mixin atSmallMedium {
+      margin-top: 2em;
+    }
+
+    @mixin atMedium {
+      margin-top: 0.5em;
     }
   }
 
@@ -36,6 +43,7 @@
     color: #333;
     font-weight: 500;
     max-width: 19rem;
+    margin-top: -0.5em;
     margin-left: auto;
     margin-right: auto;
 

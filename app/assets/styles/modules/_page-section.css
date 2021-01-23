@@ -22,7 +22,7 @@
   }
 
   &--recommendations {
-    background-color: #e8f7fe;
+    background-color:/* #e5fbff; */ #e8f9ff;
     @mixin atLarge {
       background: url("assets/images/hero--large3.jpg") no-repeat right
         bottom/cover;
