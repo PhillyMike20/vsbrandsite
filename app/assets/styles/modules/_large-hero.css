@@ -1,5 +1,5 @@
 .large-hero {
-  border-bottom: 2px solid $mainBlue;
+  border-bottom: 4px solid $mainBlue;
   position: relative;
 
   &__image {
@@ -20,7 +20,7 @@
 
   &__title {
     font-weight: 500;
-    color: #333;
+    color: $mainBlue;
     font-size: 2.4rem;
     font-family: "Sacramento", cursive;
 
@@ -60,7 +60,7 @@
 
   &__description2 {
     font-size: 1.2rem;
-    color: $mainBlue;
+    color: #333;
     font-weight: 500;
     max-width: 19rem;
     margin-left: auto;

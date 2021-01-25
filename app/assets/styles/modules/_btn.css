@@ -5,10 +5,22 @@
   padding: 0.55rem 1.2rem;
   display: inline-block;
 
+  &--blue {
+    background-color: $mainBlue;
+    color: white;
+    /*border: 2.25px solid #333;*/
+  }
+
   &--white {
-    background-color: white;
+    background-color: #fff;
     color: $mainBlue;
-    border: 2px solid $mainBlue;
+    /*border: 2.25px solid #333;*/
+  }
+
+  &--nav {
+    margin-top: 0.57em;
+    margin-left: 0.57em;
+    margin-right: -0.14em;
   }
 
   &--nob {
