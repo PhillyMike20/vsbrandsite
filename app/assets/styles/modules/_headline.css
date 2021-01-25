@@ -14,7 +14,7 @@
 
   &--centered1 {
     text-align: center;
-    @mixin atML {
+    @mixin atSmallMedium {
       text-align: left;
     }
   }
