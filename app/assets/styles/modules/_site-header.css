@@ -10,12 +10,12 @@
   }
 
   &--is-expanded {
-    background-color: rgba($mainBlue, 0.14);
+    background-color: rgba($mainBlue, 0.65);
   }
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainBlue, 0.58);
+    background-color: rgba($mainBlue, 0.6);
 
     &--dark {
       background-color: rgba($mainBlue, 0.9);
@@ -23,9 +23,12 @@
   }
 
   &__btn-container {
-    float: right;
-    font-size: 1.1rem;
-    margin-top: 3px;
+    @mixin atMedium {
+      float: right;
+      font-size: 1.1rem;
+      margin-top: 3px;
+    }
+    font-size: 0.75rem;
   }
 
   &__logo {
@@ -116,7 +119,7 @@
     transition: all 0.3s ease-out;
     position: relative;
     z-index: -10;
-    padding-top: 90px;
+    padding-top: 85px;
     text-align: center;
 
     @mixin atMedium {

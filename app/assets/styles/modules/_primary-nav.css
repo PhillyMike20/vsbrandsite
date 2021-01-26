@@ -1,4 +1,9 @@
 .primary-nav {
+  padding-top: 9px;
+
+  @mixin atMedium {
+    padding-top: 0;
+  }
   &--pull-right {
     @mixin atMedium {
       float: right;
@@ -36,7 +41,7 @@
     margin-top: 2px;
     margin-bottom: 5px;
     font-size: 0.7rem;
-    background-color: rgba($mainBlue, 0.11);
+    background-color: rgba($mainBlue, 0.48);
 
     @mixin atSmall {
       font-size: 0.8rem;
@@ -46,12 +51,10 @@
       font-size: 1.075rem;
       padding: 19px 0;
       background-color: transparent;
+
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
   }
-  /*
-  &--white {
-    a {
-      color: #226e91;
-    }
-  } */
 }
