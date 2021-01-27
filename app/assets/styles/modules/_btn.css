@@ -8,6 +8,7 @@
   &--blue {
     background-color: $mainBlue;
     color: white;
+    font-size: 1.1rem;
     /*border: 2.25px solid #333;*/
   }
 
@@ -25,10 +26,6 @@
 
   &--nob {
     border: none;
-  }
-
-  &--blue {
-    background-color: $mainBlue;
   }
 
   &--large {

@@ -1,0 +1,94 @@
+.contact {
+  &--a {
+    .text-fields {
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "subject phone"
+        "message message";
+      grid-gap: 1.2rem;
+      margin-bottom: 1.2rem;
+
+      .name-input {
+        grid-area: name;
+      }
+      .subject-input {
+        grid-area: subject;
+      }
+      .email-input {
+        grid-area: email;
+      }
+      .phone-input {
+        grid-area: phone;
+      }
+      .message-input {
+        grid-area: message;
+        height: 175px;
+      }
+      .text-input {
+        padding: 0.5rem 1rem;
+      }
+    }
+    button[type="submit"] {
+      width: 45%;
+      @mixin atSmall {
+        width: 32%;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    &--a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
+      }
+    }
+  }
+}
+
+.container {
+  max-width: 640px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.lead2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.py {
+  &-2 {
+    padding: 2rem 0;
+  }
+}
+
+.my {
+  &-2 {
+    margin: 2rem 0;
+  }
+}
+.section-title {
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: $mainBlue;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
