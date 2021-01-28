@@ -38,7 +38,7 @@ class Modal {
         <div class="bottom-line"></div> 
         <p class="lead2">Here is how you can reach me</p>
         <form
-          method="POST" name="contact"
+          method="POST" name="contact" data-netlify="true"
         >
           <div class="text-fields">
             <input
