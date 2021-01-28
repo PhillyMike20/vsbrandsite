@@ -16,6 +16,11 @@
     }
   }
 
+  p {
+    text-align: left;
+    color: #333;
+    margin-top: 1rem;
+  }
   img {
     border-radius: 50%;
     border: 6px solid $mainBlue;
