@@ -37,7 +37,7 @@ class Modal {
         <h2 class="section-title section-title--no-bm section-title--blue"><img src="assets/images/icons/mail.png">Get in Touch</h2>
         <div class="bottom-line"></div> 
         <p class="lead2">Here is how you can reach me</p>
-        <form
+        <form data-netlify="true"
           method="POST" name="contact"
         >
         <input type="hidden" name="form-name" value="contact" />
