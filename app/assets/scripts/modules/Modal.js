@@ -40,7 +40,7 @@ class Modal {
         <form
           method="POST"
         >
-        <input type="hidden" name="form-name" value="name_of_my_form" />
+        <input type="hidden" name="form-name" value="contact" />
           <div class="text-fields">
             <input
               type="text"
