@@ -38,8 +38,9 @@ class Modal {
         <div class="bottom-line"></div> 
         <p class="lead2">Here is how you can reach me</p>
         <form
-          method="POST" name="contact"
+          method="POST"
         >
+        <input type="hidden" name="form-name" value="name_of_my_form" />
           <div class="text-fields">
             <input
               type="text"
