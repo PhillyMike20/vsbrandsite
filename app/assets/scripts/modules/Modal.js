@@ -38,7 +38,7 @@ class Modal {
         <div class="bottom-line"></div> 
         <p class="lead2">Here is how you can reach me</p>
         <form
-          method="POST" name="contact" data-netlify="true" action="/thanks"
+          method="POST" name="contact"
         >
           <div class="text-fields">
             <input
@@ -71,7 +71,6 @@ class Modal {
               name="message"
             ></textarea>
             <div class="my-2">
-            <div data-netlify-recaptcha="true"></div>
             </div>
           </div>
           <button type="submit" class="btn btn--blue">Submit</button>
