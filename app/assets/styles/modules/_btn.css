@@ -9,13 +9,11 @@
     background-color: $mainBlue;
     color: white;
     font-size: 1.1rem;
-    /*border: 2.25px solid #333;*/
   }
 
   &--white {
     background-color: #fff;
     color: $mainBlue;
-    /*border: 2.25px solid #333;*/
   }
 
   &--nav {
