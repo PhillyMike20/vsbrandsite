@@ -23,9 +23,9 @@
       }
       .message-input {
         grid-area: message;
-        height: 100px;
+        height: 75px;
         @mixin atSmall {
-          height: 175px;
+          height: 150px;
         }
       }
       .text-input {
@@ -62,7 +62,7 @@
 }
 
 .lead2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
@@ -79,12 +79,12 @@
     padding: 2rem 0;
   }
 }
-
+/*
 .my {
   &-2 {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
-}
+} */
 .section-title {
   display: block;
   padding-bottom: 0.5rem;

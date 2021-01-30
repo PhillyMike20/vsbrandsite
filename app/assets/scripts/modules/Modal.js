@@ -70,8 +70,6 @@ class Modal {
               placeholder="Enter Message"
               name="message"
             ></textarea>
-            <div class="my-2">
-            </div>
           </div>
           <button type="submit" class="btn btn--blue">Submit</button>
         </form>
