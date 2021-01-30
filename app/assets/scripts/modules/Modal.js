@@ -39,7 +39,7 @@ class Modal {
         <p class="lead2">Here is how you can reach me</p>
         <form
           method="POST"
-        >
+        > <input type="hidden" name="form-name" value="contact" />
           <div class="text-fields">
             <input
               type="text"
