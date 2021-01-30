@@ -19,13 +19,12 @@
   p {
     text-align: left;
     color: #333;
-    margin-top: 1rem;
   }
-  img {
+  /* img {
     border-radius: 50%;
     border: 6px solid $mainBlue;
     background-color: $mainBlue;
-  }
+  } Save for photos */
 
   &__photo {
     overflow: hidden;

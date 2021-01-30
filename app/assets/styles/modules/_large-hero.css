@@ -36,26 +36,7 @@
     @mixin atMedium {
       margin-top: 0.5em;
     }
-  } /*
-  &__description1 {
-    font-size: 1.2rem;
-    color: #333;
-    font-weight: 500;
-    max-width: 19rem;
-    margin-top: -0.5em;
-    margin-left: auto;
-    margin-right: auto;
-
-    @mixin atSmall {
-      font-size: 1.4rem;
-      max-width: 30rem;
-    }
-
-    @mixin atMedium {
-      font-size: 1.8rem;
-      max-width: 45rem;
-    }
-  } */
+  }
 
   &__headline {
     font-size: 1.2rem;
