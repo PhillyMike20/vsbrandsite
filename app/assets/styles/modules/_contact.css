@@ -25,7 +25,7 @@
         grid-area: message;
         height: 75px;
         @mixin atSmall {
-          height: 150px;
+          height: 125px;
         }
       }
       .text-input {
