@@ -23,7 +23,10 @@
       }
       .message-input {
         grid-area: message;
-        height: 175px;
+        height: 100px;
+        @mixin atSmall {
+          height: 175px;
+        }
       }
       .text-input {
         padding: 0.5rem 1rem;
@@ -59,10 +62,13 @@
 }
 
 .lead2 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
+  @mixin atSmall {
+    font-size: 1.3rem;
+  }
 }
 .text-center {
   text-align: center;
