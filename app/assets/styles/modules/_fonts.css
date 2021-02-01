@@ -9,10 +9,8 @@
 }
 
 @font-face {
-  font-family: "sacramentoregular";
-  src: url("assets/styles/fonts/sacramento-regular-webfont.woff2")
-      format("woff2"),
-    url("assets/styles/fonts/sacramento-regular-webfont.woff") format("woff");
+  font-family: "Sacramento-Regular";
+  src: url("assets/styles/fonts/Sacramento-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
