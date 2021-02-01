@@ -2,20 +2,17 @@
 
 @font-face {
   font-family: "open_sansregular";
-  src: url("https://vstirmtraining.com/assets/styles/fonts/opensans-regular-webfont.woff2")
-      format("woff2"),
-    url("https://vstirmtraining.com/assets/styles/fonts/opensans-regular-webfont.woff")
-      format("woff");
-  font-weight: normal;
+  src: url("assets/styles/fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("assets/styles/fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "sacramentoregular";
-  src: url("https://vstirmtraining.com/assets/styles/fonts/sacramento-regular-webfont.woff2")
+  src: url("assets/styles/fonts/sacramento-regular-webfont.woff2")
       format("woff2"),
-    url("https://vstirmtraining.com/assets/styles/fonts/sacramento-regular-webfont.woff")
-      format("woff");
+    url("assets/styles/fonts/sacramento-regular-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
+  font-style: cursive;
 }
