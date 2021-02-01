@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Sacramento";
-  src: url("assets/styles/fonts/Sacramento-Regular.ttf") format("ttf");
+  src: url("assets/styles/fonts/Sacramento-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
