@@ -4,7 +4,7 @@
   font-family: "open_sansregular";
   src: url("assets/styles/fonts/opensans-regular-webfont.woff2") format("woff2"),
     url("assets/styles/fonts/opensans-regular-webfont.woff") format("woff");
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -14,5 +14,5 @@
       format("woff2"),
     url("assets/styles/fonts/sacramento-regular-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: cursive;
+  font-style: normal;
 }
