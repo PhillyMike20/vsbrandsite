@@ -42,30 +42,30 @@ class Modal {
         > <input type="hidden" name="form-name" value="contact" />
           <div class="text-fields">
             <input
-              type="text"
+            tabindex="1" type="text"
               class="text-input name-input"
               placeholder="Name"
               name="name"
             />
             <input
-              type="text"
+            tabindex="3" type="text"
               class="text-input subject-input"
               placeholder="Subject"
               name="subject"
             />
             <input
-              type="email"
+            tabindex="2" type="email"
               class="text-input email-input"
               placeholder="Email"
               name="email"
             />
             <input
-              type="text"
+            tabindex="4" type="text"
               class="text-input phone-input"
               placeholder="Phone Number"
               name="phone"
             />
-            <textarea
+            <textarea tabindex="5"
               class="text-input message-input"
               placeholder="Enter Message"
               name="message"
