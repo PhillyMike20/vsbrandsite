@@ -36,7 +36,7 @@
     </p>
   </header>
   <form id="survey-form" name="customtraining" method="POST" data-netlify="true"
-  action="/success" enctype="application/x-www-form-urlencoded">
+  action="/success" netlify-honeypot="bot-field">
     <div class="form-group">
       <label id="name-label" for="name">Name</label>
       <input
@@ -195,7 +195,7 @@
     </div>
   </form>
 </div>
-</main>
+</main> 
 <script>
   $("input[data-type='currency']").on({
     keyup: function() {
