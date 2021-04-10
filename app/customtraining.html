@@ -174,7 +174,8 @@
       <label id="budget-label" for="currency-field"
         >Budget for Materials</label
       >
-    <input type="number" name="currency-field" id="currency-field" placeholder="$0.00">
+    <input type="text"
+    class="form-control" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" name="currency-field" id="currency-field" data-type="currency" placeholder="$0.00">
       </div>
     <div class="form-group">
       <p>Additional information</p>
@@ -193,7 +194,7 @@
     
   </form>
 </div>
-</main> <!--
+</main> 
 <script>
   $("input[data-type='currency']").on({
     keyup: function() {
@@ -278,6 +279,6 @@ function formatCurrency(input, blur) {
   input[0].setSelectionRange(caret_pos, caret_pos);
 }
 
-</script> -->
+</script> 
 </body>
 </html>
