@@ -35,7 +35,7 @@
       Please fill out and submit the form below to get started.
     </p>
   </header>
-  <form name="customtraining" method="POST" data-netlify="true" 
+  <form method="POST" data-netlify="true" action="/success" name="customtraining" 
   id="survey-form">
     <div class="form-group">
       <label id="name-label" for="name">Name</label>
@@ -45,7 +45,6 @@
         id="name"
         class="form-control"
         placeholder="Enter your name"
-        required
       />
     </div>
     <div class="form-group">
@@ -56,7 +55,6 @@
         id="email"
         class="form-control"
         placeholder="Enter your Email"
-        required
       />
     </div>
     <div class="form-group">
@@ -176,7 +174,7 @@
       <label id="budget-label" for="currency-field"
         >Budget for Materials</label
       >
-    <input type="number" name="currency-field" id="currency-field"  data-type="currency" placeholder="$0.00">
+    <input type="number" name="currency-field" id="currency-field" placeholder="$0.00">
       </div>
     <div class="form-group">
       <p>Additional information</p>
@@ -188,11 +186,11 @@
       ></textarea>
     </div>
 
-    <div class="form-group">
+  
       <button type="submit" class="btn btn--large btn--gold" id="submit">
         <span class="text">Submit</span><span class="icon"><i class="fas fa-paper-plane"></i></span>
       </button>
-    </div>
+    
   </form>
 </div>
 </main> <!--
