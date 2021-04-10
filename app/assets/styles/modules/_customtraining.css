@@ -171,3 +171,9 @@ textarea {
   resize: vertical;
   border: 1px solid #cfb430;
 }
+
+#information:focus {
+  border-color: #cfb430;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(207, 180, 48);
+}
