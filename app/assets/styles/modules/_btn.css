@@ -2,18 +2,71 @@
   background-color: $mainBlue;
   color: #fff;
   text-decoration: none;
-  padding: 0.55rem 1.2rem;
-  display: inline-block;
+  padding: 0.53rem 1rem;
+  display: inline-block; /*
+  span {
+    transition: all 0.3s;
+    transform: scale(1, 1);
+  } */
 
   &--blue {
     background-color: $mainBlue;
     color: white;
-    font-size: 1.1rem;
+    border: none;
+    font-size: 1rem;
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+  }
+
+  &--blue:hover {
+    transform: scale(1.07);
+    background-color: #b9a12b;
+  }
+
+  .fas.fa-file-signature {
+    color: white;
+  }
+
+  &--blue > i {
+    margin-right: 8px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
   }
 
   &--white {
     background-color: #fff;
     color: $mainBlue;
+  }
+
+  &--gold {
+    background-color: $mainOrange;
+    color: #fff;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.75rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+
+  &--gold:hover {
+    transform: scale(1.07);
+  }
+
+  &--gold span.icon {
+    font-size: 0;
+  }
+
+  &--gold:hover span.icon {
+    font-size: 0.92rem;
+    @mixin atSmall {
+      font-size: 1.15rem;
+    }
+  }
+
+  &--gold:hover span.text {
+    font-size: 0;
   }
 
   &--nav {
@@ -22,8 +75,8 @@
     margin-right: -0.14em;
   }
 
-  &--nob {
-    border: none;
+  &--nav:hover {
+    background-color: $mainOrange;
   }
 
   &--large {

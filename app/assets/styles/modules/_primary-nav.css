@@ -41,7 +41,7 @@
     margin-top: 2px;
     margin-bottom: 5px;
     font-size: 0.7rem;
-    background-color: rgba($mainBlue, 0.48);
+    background-color: rgba($mainBlue, 0.45);
 
     @mixin atSmall {
       font-size: 0.9rem;

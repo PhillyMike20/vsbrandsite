@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>
+        Custom Corporate Training  
+      </title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+      <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    </head>
+<body>
+<main id="main">
+<div class="container ct">
+  <header class="header">
+    <h1 id="title" class="text-center">Custom Training <br>With Heart</h1>
+    <p id="description" class="description text-center">
+      Tell me about your staff training needs, and I will create a custom program to help you achieve your goals.
+    </p>
+    <p id="description" class="description text-center">
+      Please fill out and submit the form below to get started.
+    </p>
+  </header>
+  <form id="survey-form" name="customtraining" method="POST" data-netlify="true"
+  action="/success">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="orgname-label" for="orgname"
+        >Company</label
+      >
+      <input
+        type="orgname"
+        name="orgname"
+        id="orgname"
+        class="form-control"
+        placeholder="Company or Organization Name"
+      />
+    </div>
+    <div class="form-group">
+      <p>
+        Topics
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="human-resource-management"
+          type="checkbox"
+          class="input-checkbox"
+        />Human Resource Management</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="business-organization-and-management"
+          type="checkbox"
+          class="input-checkbox"
+        />Business Organization and Management</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="management-information-systems"
+          type="checkbox"
+          class="input-checkbox"
+        />Management Information Systems</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="word"
+          type="checkbox"
+          class="input-checkbox"
+        />Microsoft Word</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="powerpoint"
+          type="checkbox"
+          class="input-checkbox"
+        />Microsoft PowerPoint</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="excel"
+          type="checkbox"
+          class="input-checkbox"
+        />Microsoft Excel</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="zoom"
+          type="checkbox"
+          class="input-checkbox"
+        />Zoom</label
+      >
+    </div>
+    <div class="form-group">
+      <label for="date">Requested Date:</label>
+    <input type="date" id="trainingdate" name="trainingdate" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="stime">Requested Start Time:</label>
+    <input type="time" id="trainingstime" name="trainingstime" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="etime">Requested End Time:</label>
+    <input type="time" id="trainingetime" name="trainingetime" class="form-control">
+    </div>
+    <div class="form-group">
+      <label id="audience-label" for="audience"
+        >Audience<span class="clue">(description)</span></label
+      >
+      <input
+        type="audience"
+        name="audience"
+        id="audience"
+        class="form-control"
+        placeholder="Audience"
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Number of Attendees</label
+      >
+      <input
+        type="number"
+        name="attendees"
+        id="number"
+        min="1"
+        max="1000"
+        class="form-control"
+        placeholder="1-1000"
+      />
+    </div>
+    <div class="form-group">
+      <label id="budget-label" for="currency-field"
+        >Budget for Materials</label
+      >
+    <input type="text" name="currency-field" id="currency-field" class="form-control" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" placeholder="$0.00">
+      </div>
+    <div class="form-group">
+      <p>Additional information</p>
+      <textarea
+        id="information"
+        class="input-textarea"
+        name="info"
+        placeholder="Enter comments here"
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn--large btn--gold" type="submit" id="submit">
+        <span class="text">Submit</span><span class="icon"><i class="fas fa-paper-plane"></i></span>
+      </button>
+    </div>
+  </form>
+</div>
+</main>
+<script>
+  $("input[data-type='currency']").on({
+    keyup: function() {
+      formatCurrency($(this));
+    },
+    blur: function() { 
+      formatCurrency($(this), "blur");
+    }
+});
+
+
+function formatNumber(n) {
+  // format number 1000000 to 1,234,567
+  return n.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+}
+
+
+function formatCurrency(input, blur) {
+  // appends $ to value, validates decimal side
+  // and puts cursor back in right position.
+  
+  // get input value
+  var input_val = input.val();
+  
+  // don't validate empty input
+  if (input_val === "") { return; }
+  
+  // original length
+  var original_len = input_val.length;
+
+  // initial caret position 
+  var caret_pos = input.prop("selectionStart");
+    
+  // check for decimal
+  if (input_val.indexOf(".") >= 0) {
+
+    // get position of first decimal
+    // this prevents multiple decimals from
+    // being entered
+    var decimal_pos = input_val.indexOf(".");
+
+    // split number by decimal point
+    var left_side = input_val.substring(0, decimal_pos);
+    var right_side = input_val.substring(decimal_pos);
+
+    // add commas to left side of number
+    left_side = formatNumber(left_side);
+
+    // validate right side
+    right_side = formatNumber(right_side);
+    
+    // On blur make sure 2 numbers after decimal
+    if (blur === "blur") {
+      right_side += "00";
+    }
+    
+    // Limit decimal to only 2 digits
+    right_side = right_side.substring(0, 2);
+
+    // join number by .
+    input_val = "$" + left_side + "." + right_side;
+
+  } else {
+    // no decimal entered
+    // add commas to number
+    // remove all non-digits
+    input_val = formatNumber(input_val);
+    input_val = "$" + input_val;
+    
+    // final formatting
+    if (blur === "blur") {
+      input_val += ".00";
+    }
+  }
+  
+  // send updated string to input
+  input.val(input_val);
+
+  // put caret back in the right position
+  var updated_len = input_val.length;
+  caret_pos = updated_len - original_len + caret_pos;
+  input[0].setSelectionRange(caret_pos, caret_pos);
+}
+
+</script>
+</body>
+</html>

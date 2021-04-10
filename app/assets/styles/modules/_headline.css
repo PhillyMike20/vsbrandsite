@@ -1,7 +1,7 @@
 .headline {
   font-weight: 500;
   font-size: 2.4rem;
-  color: #333;
+  color: $mainBlue;
   font-family: "sacramentoregular";
 
   @mixin atSmall {
@@ -30,8 +30,8 @@
     }
   }
 
-  &--blue {
-    color: $mainBlue;
+  &--dark {
+    color: #333;
   }
 
   &--narrow {
