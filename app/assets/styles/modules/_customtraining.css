@@ -26,11 +26,10 @@
     background-position: left;
   }
 }
-/*
+
 #main {
-  
-  position: relative; 
-} */
+  margin: 0 auto;
+}
 
 h1 {
   font-weight: 400;
