@@ -26,10 +26,11 @@
     background-position: left;
   }
 }
-
-#main::after {
-  position: fixed;
-}
+/*
+#main {
+  
+  position: relative; 
+} */
 
 h1 {
   font-weight: 400;
@@ -74,8 +75,9 @@ textarea {
 
 .container {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
+  margin: 0 auto;
   position: relative;
+  padding-top: 3.125rem;
 }
 
 @media (min-width: 576px) {
