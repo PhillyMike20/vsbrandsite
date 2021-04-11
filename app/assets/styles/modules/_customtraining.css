@@ -26,10 +26,10 @@
     background-position: left;
   }
 }
-/*
-#main {
+
+#main::after {
   position: fixed;
-} */
+}
 
 h1 {
   font-weight: 400;
