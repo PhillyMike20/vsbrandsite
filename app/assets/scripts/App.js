@@ -2,14 +2,14 @@
 
 import '../styles/styles.css'
 import 'lazysizes'
-import MobileMenu from './modules/MobileMenu'/*
-import RevealOnScroll from './modules/RevealOnScroll' */
-import StickyHeader from './modules/StickyHeader'
+import MobileMenu from './modules/MobileMenu'
+import RevealOnScroll from './modules/RevealOnScroll' /*
+import StickyHeader from './modules/StickyHeader'*/
 
 
-new StickyHeader() /*
+/*new StickyHeader() */
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
-new RevealOnScroll(document.querySelectorAll(".recommendation"), 65) */
+new RevealOnScroll(document.querySelectorAll(".recommendation"), 65) 
 new MobileMenu();
 let modal
 
