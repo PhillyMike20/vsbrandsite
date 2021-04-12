@@ -33,7 +33,7 @@ h1 {
 
 .bottom-line {
   height: 3px;
-  width: 15rem;
+  width: 13rem;
   background: $mainOrange;
   display: block;
   margin: 0 auto 1.5rem auto;
