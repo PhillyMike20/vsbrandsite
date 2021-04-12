@@ -90,6 +90,7 @@ textarea {
   margin: 0 auto;
   position: relative;
   padding-top: 3.125rem;
+  margin-bottom: -25rem;
 }
 
 @media (min-width: 576px) {
