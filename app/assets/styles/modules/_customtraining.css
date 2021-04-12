@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 110%;
   background-image: url(assets/images/hero--smaller2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -20,6 +20,7 @@
     background-position: left;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
   }
 }
 
@@ -30,6 +31,7 @@
     background-position: left;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
   }
 }
 
