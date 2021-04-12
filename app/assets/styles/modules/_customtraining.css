@@ -31,6 +31,20 @@ h1 {
   }
 }
 
+.bottom-line {
+  height: 3px;
+  width: 15rem;
+  background: $mainOrange;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+@media (min-width: 613px) {
+  .bottom-line {
+    display: none;
+  }
+}
+
 p {
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
@@ -92,17 +106,20 @@ textarea {
 .description {
   font-style: italic;
   font-weight: 200;
-  color: $mainOrange;
-  @mixin atSmall {
-    color: #333;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  }
+  color: #333;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .clue {
   margin-left: 0.25rem;
   font-size: 0.9rem;
-  color: gray;
+  color: #fff;
+}
+
+@media (min-width: 613px) {
+  .clue {
+    color: gray;
+  }
 }
 
 .text-center {
@@ -112,7 +129,7 @@ textarea {
 /* form */
 
 #survey-form {
-  border: #333 1.55px solid;
+  border: #333 1.5px solid;
   background-image: linear-gradient(
     to right,
     rgba(207, 180, 48, 0.8),
@@ -155,7 +172,7 @@ textarea {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: #333 1.55px solid;
+  border: #333 1.5px solid;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -188,7 +205,7 @@ textarea {
   width: 100%;
   padding: 0.625rem;
   resize: vertical;
-  border: #333 1.55px solid;
+  border: #333 1.5px solid;
 }
 
 #information:focus {
