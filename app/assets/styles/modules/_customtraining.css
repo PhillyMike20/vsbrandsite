@@ -1,10 +1,5 @@
 .main {
-  /*
-  overflow-x: hidden;
-  overflow-y: auto;
-  z-index: 10000;
-  padding: 0; */
-  background-size: inherit;
+  min-height: 100vh;
 }
 
 #main {
