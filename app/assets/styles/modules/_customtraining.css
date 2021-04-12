@@ -17,6 +17,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: -25rem;
 }
 
 @media (min-width: 613px) {
@@ -26,6 +27,7 @@
     background-position: left;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: -25rem;
   }
 }
 
@@ -36,6 +38,7 @@
     background-position: left;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: -25rem;
   }
 }
 
@@ -87,7 +90,7 @@ textarea {
 
 .container.ct {
   width: 100%;
-  margin: 0 auto -25rem auto;
+  margin: 0 auto;
   position: relative;
   padding-top: 3.125rem;
 }
