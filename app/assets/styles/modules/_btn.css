@@ -39,8 +39,6 @@
   }
 
   &--gold {
-    background-color: $mainOrange;
-    color: #fff;
     display: block;
     width: 50%;
     margin: 0 auto;
@@ -48,10 +46,25 @@
     border-radius: 2px;
     cursor: pointer;
     transition: transform 0.3s ease-out;
+    background-color: #fff;
+    color: #333;
+  }
+  @media (min-width: 613px) {
+    &--gold {
+      background-color: $mainOrange;
+      color: #fff;
+    }
   }
 
   &--gold:hover {
-    transform: scale(1.07);
+    transform: scale(1.1);
+    color: $mainOrange;
+  }
+
+  @media (min-width: 613px) {
+    &--gold:hover {
+      color: #fff;
+    }
   }
 
   &--gold span.icon {
