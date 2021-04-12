@@ -88,7 +88,7 @@ textarea {
 .container.ct {
   width: 100%;
   margin: 0 auto;
-  position: static;
+  position: relative;
   padding-top: 3.125rem;
 }
 
