@@ -87,7 +87,7 @@ textarea {
 
 .container.ct {
   width: 100%;
-  margin: 0 auto -25rem auto;
+  margin: 0 auto;
   position: relative;
   padding-top: 3.125rem;
 }
@@ -105,7 +105,7 @@ textarea {
 }
 
 .header {
-  padding: 0 0.625rem;
+  /*padding: 0 0.625rem; */
   margin-bottom: 1.875rem;
 }
 
@@ -131,6 +131,7 @@ textarea {
   border: #cfb430 4px solid;
   background-color: rgba(255, 255, 255, 0.87);
   padding: 2.5rem 0.625rem;
+  margin: 0;
 }
 
 @media (min-width: 480px) {
