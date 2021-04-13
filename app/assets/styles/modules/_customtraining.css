@@ -1,5 +1,5 @@
 #main {
-  background: url("assets/images/tile.jpg") top left repeat;
+  background-color: rgb(245, 244, 244);
 }
 
 @media (min-width: 613px) {
