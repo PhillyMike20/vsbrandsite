@@ -46,13 +46,26 @@
     border-radius: 2px;
     cursor: pointer;
     transition: transform 0.3s ease-out;
+    background-color: #fff;
+    color: #333;
     border: 1.5px solid #333;
-    background-color: $mainOrange;
-    color: #fff;
+  }
+  @media (min-width: 613px) {
+    &--gold {
+      background-color: $mainOrange;
+      color: #fff;
+    }
   }
 
   &--gold:hover {
     transform: scale(1.1);
+    color: $mainOrange;
+  }
+
+  @media (min-width: 613px) {
+    &--gold:hover {
+      color: #fff;
+    }
   }
 
   &--gold span.icon {
